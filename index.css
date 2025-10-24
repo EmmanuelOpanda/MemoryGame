@@ -1,0 +1,34 @@
+
+
+body {
+  background-image: url("https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100px;}
+
+h1{
+    cursor: pointer;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.board-container{
+    text-align: center;
+}
+
+.row-container{
+   
+
+}
+.card{
+    display: inline-grid;
+    height: 250px;
+    width: 200;
+    background-color: #5891c4;
+    margin: 6px;
+    align-items: center;
+    cursor: pointer;
+}
+
