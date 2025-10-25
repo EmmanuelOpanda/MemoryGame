@@ -30,6 +30,30 @@ let gameState = [
         image: "images/cat.jpg",
         isFlipped: false,
     },
+    {
+        image: "images/lion.jpeg",
+        isFlipped: false,
+    },
+    {
+        image: "images/tiger.jpeg",
+        isFlipped: false,
+    },
+    {
+        image: "images/tiger.jpeg",
+        isFlipped: false,
+    },
+    {
+        image: "images/eagle.jpeg",
+        isFlipped: false,
+    },
+    {
+        image: "images/eagle.jpeg",
+        isFlipped: false,
+    },
+    {
+        image: "images/lion.jpeg",
+        isFlipped: false,
+    },
 
 ]
 
@@ -63,7 +87,7 @@ function onCardClick(idx) {
             document.querySelector(`.card-${flippedCards[0]}`).removeAttribute('src');;
             document.querySelector(`.card-${flippedCards[1]}`).removeAttribute('src');;
             flippedCards = [];
-        }, 2000)
+        }, 500)
     }
 
 
