@@ -10,6 +10,7 @@ body {
 h1{
     cursor: pointer;
     text-align: center;
+    color: yellow;
 }
 h4{
     text-align: center;
@@ -18,9 +19,15 @@ h4{
     text-align: center;
 }
 
-.row-container{
-   
-
+button {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    padding: 5px;
+    background: skyblue;
+    border-radius: 3px;
+    border: none;
+    color: whi
 }
 .card{
     display: inline-grid;

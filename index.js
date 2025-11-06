@@ -93,6 +93,21 @@ function onCardClick(idx) {
 
 }
 
+const onReset = () => {
+
+    gameState.forEach(card => {
+        card.isFlipped = false;
+    });
+
+    flippedCards = [];
+
+    shuffleCard();
+
+    document.querySelectorAll('.card').forEach(el => {
+        el.removeAttribute('src');
+    })
+
+}
 
 
 
