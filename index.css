@@ -1,41 +1,57 @@
-
+* {
+    box-sizing: border-box;
+}
 
 body {
-  background-image: url("https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-  min-height: 100px;}
 
 h1{
-    cursor: pointer;
     text-align: center;
-    color: yellow;
+    color: saddlebrown;
+    font-size: 2rem;
 }
-h4{
-    text-align: center;
-}
-.board-container{
-    text-align: center;
+.board-container {
+    display: grid;
+    grid-template-columns: repeat(4, 160px); /* 4 columns */
+    grid-template-rows: repeat(3, 160px);    /* 3 rows */
+    gap: 10px;                                /* spacing */
+    justify-content: center; 
 }
 
-button {
-    margin: 0 auto;
-    display: block;
-    width: 200px;
-    padding: 5px;
-    background: skyblue;
-    border-radius: 3px;
+.card {
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+    margin: 4px;
+}
+
+.card {
+    width: 170px;
+    height: 200px;
+    background-color: rgb(17, 79, 79);
     border: none;
-    color: whi
+    border-radius: 5px;
 }
-.card{
-    display: inline-grid;
-    height: 250px;
-    width: 200;
-    background-color: #5891c4;
-    margin: 6px;
-    align-items: center;
-    cursor: pointer;
+
+.rest-btn {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  background: #315532;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  align-self: center;
 }
+
+
 
