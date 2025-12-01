@@ -7,51 +7,51 @@ console.log(' hi from memory game...')
 
 let gameState = [
     {
-        image: "images/cat.jpg",
+        image: "images/mariwa1.jpg",
         isFlipped: false,
     },
     {
-        image: "images/fish.jpg",
+        image: "images/mariwa3.jpg",
         isFlipped: false,
     },
     {
-        image: "images/dog.jpg",
+        image: "images/mariwa2.jpg",
         isFlipped: false,
     },
     {
-        image: "images/fish.jpg",
+        image: "images/mariwa6.jpg",
         isFlipped: false,
     },
     {
-        image: "images/dog.jpg",
+        image: "images/mariwa4.jpg",
         isFlipped: false,
     },
     {
-        image: "images/cat.jpg",
+        image: "images/mariwa5.jpg",
         isFlipped: false,
     },
     {
-        image: "images/lion.jpeg",
+        image: "images/mariwa1.jpg",
         isFlipped: false,
     },
     {
-        image: "images/tiger.jpeg",
+        image: "images/mariwa6.jpg",
         isFlipped: false,
     },
     {
-        image: "images/tiger.jpeg",
+        image: "images/mariwa5.jpg",
         isFlipped: false,
     },
     {
-        image: "images/eagle.jpeg",
+        image: "images/mariwa4.jpg",
         isFlipped: false,
     },
     {
-        image: "images/eagle.jpeg",
+        image: "images/mariwa3.jpg",
         isFlipped: false,
     },
     {
-        image: "images/lion.jpeg",
+        image: "images/mariwa2.jpg",
         isFlipped: false,
     },
 

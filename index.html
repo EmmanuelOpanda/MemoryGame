@@ -15,24 +15,32 @@
     <h1 style="cursor: pointer;" class="title">Memory Game</h1>
 
 
+
     <div class="board-container">
-        <div class="row-container">
-            <img class="card card-0" onclick="onCardClick(0)">
+        
+            <img class="card card-0" onclick="onCardClick(0)"/>
             <img class="card  card-1" onclick="onCardClick(1)">
             <img class="card  card-2" onclick="onCardClick(2)">
             <img class="card  card-3" onclick="onCardClick(3)">
             <img class="card  card-4" onclick="onCardClick(4)">
             <img class="card  card-5" onclick="onCardClick(5)">
-        </img>
-        <img class="row-container">
+    
             <img class="card  card-6" onclick="onCardClick(6)">
             <img class="card  card-7" onclick="onCardClick(7)">
             <img class="card  card-8" onclick="onCardClick(8)">
             <img class="card  card-9" onclick="onCardClick(9)">
             <img class="card  card-10" onclick="onCardClick(10)">
             <img class="card  card-11" onclick="onCardClick(11)">
-        </div>
+        
     </div>
+
+    <div id="win-modal" class="modal">
+  <div class="modal-content">
+      <h2>You Win! 🎉</h2>
+      <button onclick="onReset()">Play Again</button>
+  </div>
+</div>
+
 
            <button class="rest-btn" onclick="onReset()">Reset</button>
         
